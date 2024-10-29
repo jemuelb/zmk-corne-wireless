@@ -60,14 +60,14 @@
                 adjust_layer {
 // -----------------------------------------------------------------------------------------
 // |BT CLR| BT0 | BT1 | BT2 | BT3 | BT4 |   |     |     |     |     |PSCRN|      |
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
+// |      | BTD0| BTD1| BTD2| BTD3| BTD4|   |     |     |     |     |     |      |
 // |      |     |     |CAPS |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         display-name = "Adjust";
                         bindings = <
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans &trans &trans &trans &kp PSCRN &trans
-   &trans     &trans       &trans       &trans       &trans       &trans         &trans &trans &trans &trans &trans    &trans
-   &trans     &trans       &trans       &kp CAPS     &trans       &trans         &trans &trans &trans &trans &trans    &trans
+   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans &trans &trans &trans &kp PSCRN &trans
+   &trans     &bt BT_DISC 0  &bt BT_DISC 1 &bt BT_DISC 2 &bt BT_DISC 3 &bt BT_DISC 4    &trans &trans &trans &trans &trans    &trans
+   &trans     &trans         &trans        &kp CAPS      &caps_word    &trans           &trans &trans &trans &trans &trans    &trans
                     	                &trans       &trans       &trans         &trans &trans &trans
                         >;
                 };
