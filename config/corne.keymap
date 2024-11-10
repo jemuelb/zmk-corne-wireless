@@ -72,13 +72,13 @@
                         >;
                 };
 
-                SDVX_layer {
+                Mods_layer {
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      | GUI | ALT | SHFT| CTRL|     |   |     | CTRL| SHFT| ALT | GUI |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
-                        display-name = "Adjust";
+                        display-name = "Mods";
                         bindings = <
    &trans &trans   &trans   &trans    &trans    &trans     &trans &trans    &trans    &trans   &trans   &trans
    &trans &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans     &trans &kp LCTRL &kp LSHFT &kp LALT &kp LGUI &trans
